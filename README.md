@@ -4,10 +4,14 @@ Author: Pablo Garín
 
 Use:
 
-You have to include both files (.css and .js) into your project, and then add the <pre>link</pre> and <pre>script</pre> tags for each.
-
+You have to include both files (.css and .js) into your project:
 <pre>
 <link rel="stylesheet" href="date-selector.css" />
+</pre>
+and
+<pre>script</pre> tags for each.
+
+<pre>
 <script type="text/javascript" src="date-selector.js"></script>
 <script type="text/javascript">
   var options = {
