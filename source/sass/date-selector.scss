@@ -1,0 +1,50 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -border-radius: $radius;
+  -ms-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+$shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+$border-color: #ccc;
+$error-color: rgb(215, 130, 130);
+$radius: 4px;
+
+.date-selector {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  border: 1px solid $border-color;
+  box-shadow: $shadow;
+  @include border-radius($radius);
+  &.has-error {
+    border-color: $error-color;
+  }
+
+  > .date-selector__input {
+    flex-grow: 1;
+    display: inline-block;
+    width: 100%;
+    > * {
+        height: 34px;
+        padding: 6px 12px;
+        width: 100%;
+        border-width: 0;
+        background-color: transparent;
+        line-height: 1.42857143;
+    }
+    > input.date-selector__day {
+      border-radius: 4px;
+      @include border-radius($radius);
+    }
+
+    > .date-selector__month {
+      border-left: 1px solid $border-color;
+      border-right: 1px solid $border-color;
+    }
+
+    > input.date-selector__year {
+      @include border-radius($radius);
+    }
+  }
+}
