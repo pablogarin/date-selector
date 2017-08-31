@@ -3,6 +3,9 @@ Date Selector Plugin for jQuery
 Author: Pablo Garín
 
 Use:
+
+You have to include both files (.css and .js) into your project, and then add the <pre>link</pre> and <pre>script</pre> tags for each.
+
 <pre>
 <link rel="stylesheet" href="date-selector.css" />
 <script type="text/javascript" src="date-selector.js"></script>
