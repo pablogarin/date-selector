@@ -1,7 +1,7 @@
 Date Selector Plugin for jQuery
-
-Author: Pablo Garín
 ===================================================
+Author: Pablo Garín
+
 Use:
 <pre>
 <link rel="stylesheet" href="date-selector.css" />
