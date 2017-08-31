@@ -25,7 +25,9 @@ You have to include both files (date-selector.css and date-selector.js) into you
 
 Options
 ===================================================
-| format            |   The format for the date input field.
+| Option            | Description                                                         |
+|-------------------|---------------------------------------------------------------------|
+| format            |   The format for the date input field.                              |
                     Formats:
                       Y: Full year.
                       y: Last 2 digits from year.
@@ -35,9 +37,9 @@ Options
                       D: Day of week.
                     Default:
                       "d-m-Y"
-| allowFutureDates  |     Specify if the date can only be a past date. Highlights error.
-| months            |   Array with the months names for the month combobox.
-| placeholders      |   JSON with the fields placeholder.
+| allowFutureDates  |     Specify if the date can only be a past date. Highlights error.  |
+| months            |   Array with the months names for the month combobox.               |
+| placeholders      |   JSON with the fields placeholder.                                 |
                       Fields:
                         - day
                         - month
